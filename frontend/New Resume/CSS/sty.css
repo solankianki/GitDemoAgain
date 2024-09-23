@@ -1,0 +1,223 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;   
+}
+.container
+{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 100px;
+  background: rgb(46, 57, 214);
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.container .left_side
+{
+    position: relative;
+    background: #fff0ff;
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    background: #360da7;
+}
+img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.profileText h2
+{
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+}
+.profileText span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.contactInfo
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: #fff;
+}
+.contactInfo ul
+{
+    position: relative;
+}
+.contactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+.contactInfo ul li .icon
+{
+   display: inline-block;
+   width: 20px;
+   font-size: 18px;
+}
+.education{
+    margin-top: 50px;
+    color: #fff;
+    position: relative;
+    margin-left: 100px;
+
+}
+.education li
+{
+    list-style: none;
+  margin-bottom: 15px;
+}
+.education h5
+{
+    color: #fff;
+    font-weight: 100;
+}
+.education h4
+{
+  color: #fff;
+  font-weight: 200;
+}
+.education h3
+{
+    font-weight: 500;
+}
+.language
+{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.language ul
+{
+    list-style: none;
+}
+.language li
+{
+    margin-bottom: 10px;
+    color: #fff;
+}
+.title
+{
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.profile
+{
+    color: cadetblue;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.profile .icon
+{
+   margin-right: 10px; 
+}
+.exp{
+    color: cadetblue;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.year{
+    color: cadetblue;
+}
+.exp .icon
+{
+    margin-right: 10px;
+}
+.sec1
+{
+    margin-top: 20px;
+    display: flex;
+    gap: 70%;
+}
+.comp{
+    color: cadetblue;
+}
+.company 
+{
+    margin-top: 10px;
+}
+.proj{
+    color: cadetblue;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.proj .icon
+{
+    margin-right: 10px;
+}
+.sec2{
+    color: cadetblue;
+}
+.skills
+{
+    color: cadetblue;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.skills .icon
+{
+    margin-right: 10px;
+}
+.box{
+    text-transform: uppercase;
+}
+.sec3
+{
+    display: flex;
+    font-weight: 500;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+.sec4
+{
+    display: flex;
+    gap: 70px;
+}
+.bar{
+    position: relative;
+    width: 100%;
+    margin-top: 4px;
+    height: 10px;
+    background: #fff;
+}
+.bar div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #360da7;
+}
+
+
